@@ -6,3 +6,7 @@ coverage:
         target: auto #default
         threshold: 0%
         base: auto 
+
+comment:
+  layout: "header, diff, flags"  # show component info in the PR comment
+  
