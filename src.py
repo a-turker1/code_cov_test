@@ -13,3 +13,6 @@ def sqrt(x):
 
 def add_one(x):
     return x + 1
+
+def add(x, y):
+    return x + y
