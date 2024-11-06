@@ -20,7 +20,6 @@ jobs:
       - name: Install Python dependencies
         run: |
           python3 -m pip install --upgrade pip
-          pip install torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
           pip install pytest
           pip install pytest-cov
       - name: Execute testcase unit tests
