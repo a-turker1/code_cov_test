@@ -10,3 +10,6 @@ def factorial(n):
     
 def sqrt(x):
     return x ** 0.5
+
+def add_one(x):
+    return x + 1
