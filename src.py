@@ -8,3 +8,5 @@ def factorial(n):
     return n * factorial(n-1)
 
     
+def sqrt(x):
+    return x ** 0.5
